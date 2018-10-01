@@ -1,4 +1,4 @@
-uthor:Yasir Aslam Shah
+Author:Yasir Aslam Shah
 Project 1
 EID
 Fall 2018
@@ -20,8 +20,8 @@ The GUI file and the python code is saved in the same file and can be run using 
 The GUI can be closed and exited using close button at the top right of top bar
 
 Refrence links:
-1.https://www.youtube.com/watch?v=7SrD4l2o
-2.https://gist.github.com/pklaus/3e16982d952969eb8a9a
-3.https://circuitpython.readthedocs.io/projects/dht/en/latest/
-5.https://github.com/adafruit/circuitpython
+1.https://www.youtube.com/watch?v=7SrD4l2o [for QT]
+2.https://gist.github.com/pklaus/3e16982d952969eb8a9a [for Graph Plotting]
+3.https://circuitpython.readthedocs.io/projects/dht/en/latest/ [sensor DHT22]
+4.https://github.com/adafruit/circuitpython [Sensor DHT22]
 
