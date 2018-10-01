@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>509</width>
-    <height>584</height>
+    <height>604</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,6 +39,7 @@
     <font>
      <family>Droid Sans Fallback</family>
      <pointsize>14</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -80,6 +81,7 @@
     <font>
      <family>Droid Sans Fallback</family>
      <pointsize>14</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -99,6 +101,7 @@
     <font>
      <family>Droid Sans Fallback</family>
      <pointsize>14</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -118,6 +121,9 @@
     <font>
      <family>Droid Sans Fallback</family>
      <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
     </font>
    </property>
    <property name="text">
@@ -140,7 +146,7 @@
     </font>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>00:00:00</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_Time1">
@@ -159,7 +165,7 @@
     </font>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>00:00:00</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_AveB1">
@@ -178,7 +184,7 @@
     </font>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="label_AveA1">
@@ -197,7 +203,7 @@
     </font>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="label_10">
@@ -213,6 +219,7 @@
     <font>
      <family>Droid Sans Fallback</family>
      <pointsize>14</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -231,11 +238,13 @@
    <property name="font">
     <font>
      <family>Droid Sans Fallback</family>
-     <pointsize>14</pointsize>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
     </font>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="label_Temp1">
@@ -250,11 +259,13 @@
    <property name="font">
     <font>
      <family>Droid Sans Fallback</family>
-     <pointsize>14</pointsize>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
     </font>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string/>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -353,6 +364,8 @@
    <property name="font">
     <font>
      <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
    </property>
    <property name="text">
@@ -388,35 +401,59 @@
   <widget class="QLabel" name="label_AlertA">
    <property name="geometry">
     <rect>
-     <x>170</x>
+     <x>180</x>
      <y>380</y>
-     <width>67</width>
+     <width>81</width>
      <height>21</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>Status?</string>
    </property>
   </widget>
-  <widget class="QLabel" name="labelAlertB">
+  <widget class="QLabel" name="label_AlertB">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>280</x>
      <y>380</y>
-     <width>67</width>
+     <width>81</width>
      <height>20</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>Status?</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>120</x>
      <y>370</y>
-     <width>113</width>
+     <width>51</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit1">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>370</y>
+     <width>51</width>
      <height>33</height>
     </rect>
    </property>
@@ -444,8 +481,9 @@
   <zorder>pushButton4</zorder>
   <zorder>pushButton5</zorder>
   <zorder>label_AlertA</zorder>
-  <zorder>labelAlertB</zorder>
+  <zorder>label_AlertB</zorder>
   <zorder>lineEdit</zorder>
+  <zorder>lineEdit1</zorder>
  </widget>
  <resources/>
  <connections/>
