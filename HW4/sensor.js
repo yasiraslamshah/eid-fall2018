@@ -2,7 +2,8 @@
 //ECEN 5023
 //EID 2018 Homework4
 //Fall 2018
-
+//Refernce:https://github.com/momenso/node-dht-sensor
+//https://www.w3schools.com/js/js_if_else.asp
 var sensorLib = require("node-dht-sensor");
 //global variables 
 var count=0;
