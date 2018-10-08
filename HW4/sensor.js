@@ -63,13 +63,13 @@ var sensor = {
 				count= count+1;	//counter to keep a value of number of loops			
 			}
 		setTimeout(function() 	
-			{					
+			{	//function to timeout for ten seconds				
 				sensor.read();
 			}, 10000);
 if(count==10)
 {
-	average_hum1=average_hum/(10);	
-	average_temp1= average_temp/(10);
+	average_hum1=average_hum/(10);	//calculating the average value for humidity
+	average_temp1= average_temp/(10);//calculating the average value for temperature
 	console.log(line);					
 	console.log("            Max Temp    :" + max_temp+"°C" +                "\t Max Hum    :" + max_hum+"%");
 	console.log("            Min Temp    :" + min_temp+"°C" +                "\t Min Hum    :" + min_hum+"%");
